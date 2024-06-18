@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+<body>
+    <div class="background">
+        
+        <a href="#"><div class="logo"></div></a>
+        <div class="menu_bar">
+            <a href="#"><div class="menu_options">Home</div></a>
+            <a href="#"><div class="menu_options">About us</div></a>
+            <a href="#"><div class="menu_options">Login</div></a>
+            <a href="#"><div class="menu_options">Sign up</div></a>
+            <a href="#"><div class="menu_options">Contact us</div></a>
+        </div>
+
+        <div class="container">
+            <div class="heading">
+                <h1> To Do List: <i class="fa fa-user-secret"></i></h1>
+            </div>
+            <form action="">
+                <div class="task">
+                    <input type="text" placeholder="Enter task to do" class="todo-input">
+                    <button class="todo-button" type="submit"> 
+                        <i class="fa fa-plus"></i>
+                    </button>
+                    <div class="select">
+                        <select name="todos" class="filter-todo">
+                            <option value="all">All</option>
+                            <option value="completed">Completed</option>
+                            <option value="incomplete">Incomplete</option>
+                        </select>
+                    </div>
+                </div>
+            </form>
+            <div class="todo-container">
+                <ul class="todo-list"></ul>
+            </div>
+        </div>
+    </div>
+    <script src="main.js"></script>
+    <marquee> This website will help you to manage your time efficiently. Just add your tasks here and it will reminds you what to do :)</marquee>
+
+</body>
+</html>
