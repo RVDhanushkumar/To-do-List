@@ -12,9 +12,9 @@ Welcome to the To Do List Website repository! This project was developed as part
 
 ## Technologies Used
 
-- **Frontend:** HTML, CSS, JavaScript
-- **Backend:** Node.js, Express.js (if applicable)
-- **Database:** MongoDB (if applicable)
+- **HTML**
+- **CSS** 
+- **JavaScript**
 
 
 ## Usage
